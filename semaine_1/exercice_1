@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+
+<?php
+
+// Demande à l'utilisateur de saisir son nom
+echo "Entrez votre nom: ";
+$nom = fgets(STDIN);
+
+// Demande à l'utilisateur de saisir son prénom
+echo "Entrez votre prénom: ";
+$prenom = fgets(STDIN);
+
+// Affiche les informations saisies à l'écran
+echo "Votre nom complet est $prenom $nom";
